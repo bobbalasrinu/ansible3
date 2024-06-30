@@ -1,5 +1,5 @@
 - name: galaxy roles 
   hosts: all 
   roles:
-    - role: install_mysql
+    - role: HiddeHandel.install_mysql
       become: yes
