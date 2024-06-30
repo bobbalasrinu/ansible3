@@ -1,5 +1,5 @@
 - name: galaxy roles 
   hosts: all 
   roles:
-    - role: vanzhiganov.mysql
+    - role: geerlingguy.docker
       become: yes
