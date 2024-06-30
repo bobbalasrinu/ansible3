@@ -1,0 +1,5 @@
+- name: galaxy roles 
+  hosts: all 
+  roles:
+    - role: install_mysql
+      become: yes
