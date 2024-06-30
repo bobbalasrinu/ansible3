@@ -1,5 +1,5 @@
 - name: galaxy roles 
   hosts: all 
   roles:
-    - role: HiddeHandel.install_mysql
+    - role: antmelekhin.mysqld_exporter
       become: yes
